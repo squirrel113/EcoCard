@@ -4,6 +4,12 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Image } from "expo-image";
 import { Color, FontSize, FontFamily, Border } from "../GlobalStyles";
 import EllipseGroup from "./components/EllipseGroup";
+export default MainPageDONE;
+import WalletPage from './routes/wallet';
+
+// for the wallet section
+<Route path="/wallet" element={<WalletPage />} />
+
 
 const MainPageDONE = () => {
   return (
@@ -499,4 +505,3 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MainPageDONE;
